@@ -1,187 +1,49 @@
-# 🎸 Landing Page – Rock Band (HTML & CSS Assessment)
+# Shattered Riffs - Band Website
 
-## 📌 Project Overview
+A responsive, high-energy landing page designed for the rock band **Shattered Riffs**. This project features a professional with a focus on tour dates, band history, and multimedia content.
 
-This project is a **starter template** for a performance assessment focused on building a responsive landing page for a rock band.
+## Project Description
+This website serves as a digital hub for fans, built with a "Dark Rock" theme. Key sections include:
+- **Navigation:** A modern header with a responsive mobile menu.
+- **Hero Section:** Full-screen background with deep overlays and a Call to Action.
+- **Event Management:** A styled table displaying upcoming concert dates and booking options.
+- **About Section:** Information about the band's influences with custom icons and image shadows.
+- **Multimedia Grid:** A responsive gallery showcasing photos content with hover animations and embedded YouTube.
+- **Social Integration:** A footer with interactive links to Instagram, Spotify, and YouTube.
 
-The goal is to transform this base into a **visually engaging, responsive, and well-structured website** that promotes the band, their identity, and upcoming events.
+## Technologies Used
+- **HTML5:** Semantic markup for accessibility and structure.
+- **CSS3 (Sass/SCSS):** Advanced styling using variables for colors, nesting for clean code, and media queries for responsiveness.
+- **JavaScript:** Custom logic for the mobile hamburger menu toggle.
 
----
+## Key Features (Requirements Met)
+- **Responsive Design:** Fully adapted for mobile, tablet, and desktop views.
+- **Mobile Menu:** Functional hamburger menu for smaller screens.
+- **Data Tables:** Structured and styled HTML table for tour dates.
+- **Advanced CSS:** Implementation of hover effects, transitions, and Sass variables for theme consistency.
 
-## 🎯 What is Expected
-
-You are expected to:
-
-* Build a complete landing page using **semantic HTML5**.
-* Apply **CSS3 styles** to achieve a strong visual identity (rock style).
-* Implement **responsive design** for both:
-
-  * Desktop (>1024px)
-  * Mobile
-* Use **Flexbox and/or Grid** where appropriate.
-* Ensure the page is **clean, readable, and well-organized**.
-
----
-
-## 🧱 Project Structure
-
-```
-├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── icons
-│   │   └── logo.ico
-│   ├── img
-│   │   ├── img-1.jpg ... img-10.jpg
-│   │   └── guide.png
-│   └── js
-│       └── main.js
-├── index.html
-└── README.md
+## Project Structure
+```text
+├── index.html               # Main website structure
+├── assets/
+│   ├── css/
+│   │   └── styles.css       # Main stylesheet (compiled from Sass)
+│   ├── js/
+│   │   ├── main.js          # General site scripts
+│   │   └── hmenu.js         # Mobile navigation logic
+│   ├── icons/
+│   │   └── logo.ico         # Favicon and brand assets
+│   └── img/                 # Band photos and background images
+└── README.md                # Documentation
 ```
 
----
+## How to Run or View the Project Locally
+To see the project in action on your local machine:
 
-## 🧩 HTML Guidelines
+1. **Download the project:** Clone the repository or download the ZIP file and extract it.
+2. **Open the root folder:** Locate the `index.html` file.
+3. **Launch in Browser:**
+   - Double-click `index.html` to open it in your default web browser.
+   - *Recommendation:* Use the **Live Server** extension in VS Code for real-time updates.
+4. **Mobile Testing:** Use the browser's developer tools (F12) to test the responsive layout and the mobile menu.
 
-Your `index.html` already includes the base structure.
-
-You must:
-
-* Use semantic tags:
-
-  * `<header>`
-  * `<nav>`
-  * `<main>`
-  * `<section>`
-  * `<article>`
-  * `<footer>`
-
-* Include the following sections:
-
-  * Hero (main visual section)
-  * Events (band tour dates)
-  * About (band info)
-  * Multimedia (images or media content)
-
-* Add at least one **unordered list (`<ul>`)**:
-
-  * Influences
-  * Values
-  * Social links
-
-* (Optional – Extra Points)
-
-  * Use a **table (`<table>`)** for events
-
-👉 Focus on **clean structure and readability**.
-
----
-
-## 🎨 CSS Guidelines
-
-The provided `style.css` is intentionally minimal.
-
-You should:
-
-* Define your own:
-
-  * Colors (rock style recommended)
-  * Typography
-  * Spacing
-
-* Apply layout techniques:
-
-  * Flexbox
-  * Grid
-
-* Implement responsive design using **media queries**
-
-* Ensure:
-
-  * Proper spacing between sections
-  * Visual hierarchy (titles, buttons, content)
-  * Consistent styling
-
-👉 Avoid writing everything in one block. Organize your CSS clearly.
-
----
-
-## 📱 Responsive Design
-
-Your site **must adapt** to different screen sizes.
-
-Minimum requirement:
-
-* Desktop layout (>1024px)
-* Mobile layout
-
-Hints:
-
-* Stack elements vertically on mobile
-* Consider navigation behavior (e.g., hamburger menu)
-* Resize images and text properly
-
----
-
-## 🖼️ Images & Assets
-
-Inside `/assets/img` you will find:
-
-* Multiple images (`img-1.jpg` to `img-10.jpg`)
-* A visual reference: `guide.png`
-
-Use these images to:
-
-* Build the hero section
-* Populate the gallery
-* Add visual identity to the page
-
-⚠️ The guide is a **reference**, not something to copy exactly.
-
----
-
-## ⚙️ JavaScript (Optional)
-
-The file `main.js` is included for optional enhancements:
-
-* Mobile menu toggle
-* Simple interactions
-
-This is **not required**, but can give extra value.
-
----
-
-## 📝 Good Practices
-
-* Keep your code **clean and readable**
-* Use indentation consistently
-* Write comments when necessary (in English)
-* Organize sections clearly
-
----
-
-## 🚀 How to Run
-
-1. Download or clone the project
-2. Open `index.html` in your browser
-
-No installation required.
-
----
-
-## 🧠 Final Note
-
-This project is not about copying a design exactly.
-
-It is about:
-
-* Understanding structure
-* Making design decisions
-* Applying responsive techniques
-
-Your solution should reflect your own approach while meeting the requirements.
-
----
-
-🔥 Good luck and rock on!
